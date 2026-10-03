@@ -1,87 +1,81 @@
-# ITP120 - Java Intro
+# ITP 120 - Java Programming I
 
-This repository contains my coursework and personal learning progress for **ITP 120 - Java Programming I**, part of my path toward transitioning into a professional Software Engineering role.
+This repository documents my first structured Java coursework in **ITP 120: Java Programming I**. It is intentionally kept as an early-learning archive that shows the foundation I built before moving into graduate software engineering coursework and larger application work.
 
-## 📚 About the Course
+> **Portfolio context:** The code here is beginner-level by design. I keep it public because it shows progression: basic syntax and console output → input handling → conditionals → string comparison → loops → methods. For more advanced Java work, see my [SENG 505 Java Applications](https://github.com/avery-holmes/SENG505-Java-Applications) repository.
 
-ITP 120 is an introductory Java programming course covering:
+## What I practiced
 
-- Java syntax and basic program structure
-- Variables and data types
-- Operators and expressions
-- String class and text processing
-- Arithmetic and logical operations
-- Keyboard input and output (Scanner class)
-- Control flow basics (if, switch, loops — later modules)
-- Object-oriented programming fundamentals (later modules)
-- Program structure and modularization
-- Best practices in coding style and comments
+- Java program structure and the `main` method
+- primitive types, variables, constants, and arithmetic
+- formatted console output
+- `Scanner` input
+- string methods and case conversion
+- `if / else if / else`
+- nested conditionals
+- `String.equals()` and `String.compareTo()`
+- loops
+- methods and return values
+- `switch`
+- basic input validation
+- documenting logic with pseudocode and comments
 
-## 🚀 Why This Repo
+## Coursework progression
 
-As part of my professional transition from **Lead Risk Associate** into a **Software Engineering** role, I am documenting my progress through formal coursework and self-study.
+| Module | Focus | Programs |
+| --- | --- | --- |
+| [Module 1](./Module%201/) | Program structure and console output | Hello World |
+| [Module 2](./Module%202/) | Variables, constants, arithmetic, formatted output | Calorie calculation; Fahrenheit-to-Celsius conversion |
+| [Module 3](./Module%203/) | Keyboard input and string manipulation | Integer arithmetic; uppercase/lowercase conversion |
+| [Module 4](./Module%204/) | Conditional logic and basic validation | Letter-grade calculator; shipping-cost calculator |
+| [Module 5](./Module%205/) | String comparison and nested conditionals | Name comparison; alphabetical ordering without built-in sorting |
+| [Module 6](./Module%206/) | Iteration and compound calculations | Inflation calculator |
+| [Module 7](./Module%207/) | Methods, loops, and `switch` | Sum and factorial calculator |
 
-This repository:
+## Representative progression
 
-✅ Tracks my hands-on coding practice  
-✅ Demonstrates my learning over time  
-✅ Serves as a public portfolio for future SWE job applications
+### Early coursework
+The first modules focus on understanding Java syntax, data types, expressions, and console interaction. These programs are deliberately small.
 
-## 🗂️ Completed Assignments (Modules 1-3)
+### Conditionals and strings
+Modules 4 and 5 move into branching logic, validation, string comparison, and multi-branch reasoning.
 
-### Module 01 - Chapter 1: Hello World Program
-- Create a Java class with a `main()` method that displays:
-  - "Hello World!"
-  - "by Avery Holmes"
+### Loops and methods
+Modules 6 and 7 introduce repeated calculations and extracting behavior into methods. The final included exercise lets the user choose between a sum and factorial calculation and dispatches to the appropriate method.
 
-### Module 02 - Chapter 2, Part I: Assignment
-#### Problem 1
-- Calculate the number of calories burned by performing activities (Running, Basketball, Sleeping) using MET values and a provided formula.
-- Demonstrate use of constants and arithmetic expressions.
+## Running an assignment
 
-#### Problem 2
-- Convert a given Fahrenheit temperature to Celsius and display both values.
-- Document data type choices and use appropriate Java comments.
+Each source file is a standalone Java program. Navigate to the corresponding module and compile the file:
 
-### Module 03 - Chapter 2, Part II: Assignment
-#### Problem 1
-- Read two integers from the keyboard and output their:
-  - Sum
-  - Difference
-  - Product
+```bash
+javac Holmes_Avery_Unit7_Problem1.java
+java Holmes_Avery_Unit7_Problem1
+```
 
-#### Problem 2
-- Read a line of text and display:
-  - The line in all uppercase letters
-  - The line in all lowercase letters
+For Module 1:
 
-## 🔍 Upcoming Topics (ITP 120 Book Coverage)
+```bash
+javac HelloWorld.java
+java HelloWorld
+```
 
-- The Math Class
-- Introduction to JShell
-- Combined Assignment Operators
-- Conversion between Primitive Data Types
-- Creating Named Constants with `final`
-- The String Class (String methods, object handling)
-- Scope of Variables
-- Using `var` for local variable declarations
-- Multi-Line and Documentation Comments
-- Reading Keyboard Input (Scanner class advanced usage)
-- Common Errors to Avoid
+A standard Java Development Kit (JDK) is sufficient; there are no third-party dependencies.
 
-## 💻 Author
+## Why I keep this repository
+
+This repository is not intended to represent my current engineering ceiling. It documents the beginning of my software-development path and makes the progression into later work visible rather than replacing old assignments with code written years afterward.
+
+My later Java coursework includes collections, stacks/queues, linked lists, recursion, simulation, file/network I/O, and custom data structures:
+
+**[SENG 505 - Java Applications](https://github.com/avery-holmes/SENG505-Java-Applications)**
+
+My current development work has expanded into mobile application development with React Native and TypeScript.
+
+## Repository hygiene
+
+The repository now keeps source code as the primary artifact. Assignment screenshots and IDE/build artifacts are intentionally excluded so the code is easier to review.
+
+## Author
 
 **Avery Holmes**  
-- Lead Risk Associate at Fannie Mae  
-- 2nd Lieutenant, U.S. Air National Guard  
-- M.S. in Software Engineering Candidate (target graduation: ~2.5 years)  
-- Career goal: SWE role at $135K+ level within 2.5 years  
-
-## 📌 Notes
-
-- This repository is a live documentation of my ITP 120 progress.
-- Code here is for learning purposes — intentionally simple and evolving.
-- I follow professional SWE habits — organized code, version control, and clear documentation.
-
----
-
+Software Engineering graduate student and software-development career transitioner.
